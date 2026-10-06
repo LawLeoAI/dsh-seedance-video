@@ -1,0 +1,4 @@
+- insert:
+    - id: seedance-video
+      name: dsh-seedance-video
+      config: {}

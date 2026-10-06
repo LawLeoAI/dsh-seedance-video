@@ -1,0 +1,17 @@
+{
+  "name": "dsh-seedance-video",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "lib/index.js",
+  "description": "火山引擎方舟 Seedance（即梦）文生视频工具：提交异步任务并轮询，返回视频 URL。",
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "engines": { "dsh": ">=0.2.0-rc.2" }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": ">=4.0.0 <5"
+  },
+  "peerDependenciesMeta": {
+    "@deepseek-ai/cordis": { "optional": true }
+  }
+}
